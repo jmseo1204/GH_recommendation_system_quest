@@ -1,0 +1,11 @@
+batch_size: 128
+lr: 0.001
+maxlen: 10
+hidden_units: 50
+num_blocks: 2
+num_epochs: 3
+num_heads: 1
+dropout_rate: 0.2
+l2_emb: 0.0
+device: "cuda"
+state_dict_path: None
